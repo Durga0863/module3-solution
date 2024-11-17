@@ -1,0 +1,27 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Customization */
+.navbar-default {
+  background-color: #333;
+  border-color: #333;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .nav > li > a {
+  color: white !important;
+}
+
+/* Tall Section Styling */
+.container-fluid {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #333;
+}
