@@ -21,6 +21,20 @@ body {
   color: white;
 }
 
+/* Centered Menu Items */
+.menu-centered {
+  text-align: center;
+}
+
+.menu-centered > li {
+  display: inline-block;
+  float: none;
+}
+
+.menu-centered > li > a {
+  display: inline-block;
+}
+
 /* Page Heading */
 h1 {
   margin-top: 20px;
