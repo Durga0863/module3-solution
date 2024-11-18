@@ -23,19 +23,17 @@ h1 {
   font-weight: bold;
 }
 
-/* Menu Section Styling */
-.well {
-  background-color: #f8f9fa;
+/* Really Tall Section */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.col-xs-12 {
   padding: 20px;
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
 }
 
-.well h2 {
+h2 {
   font-weight: bold;
-  text-align: center;
-}
-
-.well p {
-  text-align: justify;
+  margin-top: 20px;
 }
