@@ -38,18 +38,4 @@ h2 {
   margin-top: 20px;
 }
 
-/* Centering dropdown menu items in mobile view */
-@media (max-width: 767px) {
-  .navbar-nav {
-    text-align: center; /* Center the menu items */
-  }
 
-  .navbar-nav > li {
-    float: none; /* Remove default float */
-    display: inline-block; /* Align items horizontally */
-  }
-
-  .navbar-nav > li > a {
-    display: inline-block; /* Align links properly */
-  }
-}
