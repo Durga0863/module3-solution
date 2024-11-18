@@ -11,7 +11,10 @@ body {
   border-color: #333;
 }
 
-.navbar-default .navbar-brand,
+.navbar-default .navbar-brand {
+  color: white !important;
+}
+
 .navbar-default .navbar-nav > li > a {
   color: white !important;
 }
@@ -23,17 +26,19 @@ h1 {
   font-weight: bold;
 }
 
-/* Really Tall Section */
-.container-fluid {
-  margin: 0;
-  padding: 0;
-}
-
-.col-xs-12 {
+/* Chicken Section Styling */
+.well {
+  background-color: #f8f9fa;
   padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
 }
 
-h2 {
+.well h2 {
   font-weight: bold;
-  margin-top: 20px;
+  text-align: center;
+}
+
+.well p {
+  text-align: justify;
 }
